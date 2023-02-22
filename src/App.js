@@ -1,13 +1,17 @@
 
 import './App.css';
-
-import Message from './components/Message';
+import Counter from './components/Counter';
+import ProfileDestructure from './components/ProfileDestructure';
+import Resume from './components/Resume';
+import FunctionEvent from './components/FunctionEvent';
+import ClassEvent from './components/ClassEvent';
+import FunctionalCounter from './components/FunctionalCounter';
 
 function App() {
   return (
     <div className="App">
     
-     <Message MessageContent="this is message from Props"></Message>
+    <FunctionalCounter></FunctionalCounter>
     </div>
   );
 }
